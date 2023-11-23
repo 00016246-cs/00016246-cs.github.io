@@ -1,0 +1,175 @@
+body{
+    background-color: white;
+    box-sizing: border-box;
+}
+
+button:active{
+    box-shadow: 1em 5px 5px green;
+    border: 1px solid black;
+}
+
+header{
+    background-color: rgb(149, 241, 149);
+    width: 95%;
+    margin: 10px auto;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    text-align: center;
+    color: green;
+}
+
+a{
+    color: white;
+    background-color: limegreen;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+div{
+    border-radius: 10px;;
+}
+
+button {
+    cursor: grab;
+}
+
+#first-line{
+    width: 90%;
+    background-color: lime;
+    padding: 5px 10px;
+    margin: 5px auto;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 20px;
+    border: solid white 2px;
+}
+
+#first-line div{
+      height: 30%;
+      padding: 10px 20px;
+}
+
+header div {
+    display: inline-block;
+    padding: 5px 40px;
+}
+
+button{
+    display: inline-block;
+}
+
+#logo{
+    background-color: white;
+}
+
+/*#logo{
+    width: 50px;
+    height: 50px;
+    background-color: wheat;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /*background-image: url(images/dilton-logo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}*/
+
+
+#logo img {
+    width: 40px;
+}
+
+
+#join-sign {
+    
+    margin: auto 1px;
+    width: 100px;
+    background-color: white;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+}
+
+#join-sign button {
+    color: green;
+    border: 1px solid green;
+    display: inline-block;
+    width: 40%;
+    height: 20px;
+    border-left: solid black 1px;
+    border-radius: 5px;;
+}
+
+/* Second-line*/
+
+#second-line{
+    padding-top: 10px;
+    width: 90%;
+    margin: 40px auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#second-line div{
+    display: inline-block;
+    background-color: lime;
+    border: solid white 2px;
+    width: 40%;
+    padding: 10px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+#required {
+      color: white;
+}
+
+#second-right div{
+    background-color: limegreen;
+    color: white;
+}
+
+#find-hotel{
+    color: limegreen;
+    border-radius: 7px;
+    border: none;
+    background-color: white;
+    padding: 3px 5px;
+}
+
+
+/*The main 
+The text*/
+
+main{
+    background-color: white;
+    width: 95%;
+    margin: 10px auto;
+
+}
+
+#the-text {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 10px;
+}
+
+#wow{
+   background-color: limegreen;
+   color: white;
+}
+
+#wow-image{
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(images/apartment.jpg);
+    background-position: center center;
+}
+
+
+#wow-text{
+    padding: 10px 20px;
+    text-align: center
+}

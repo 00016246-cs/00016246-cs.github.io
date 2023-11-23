@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{
+            background-color: white;
+            width: 960px;
+            margin: 0 auto;
+        }
+
+        button:active{
+            box-shadow: 1em 5px 5px green;
+            border: 1px solid black;
+        }
+
+        header{
+            margin: 10px 0;
+            background-color: green;
+        }
+
+        header div{
+            background-color: limegreen;
+            padding: 5px 10px;
+            border-bottom: solid grey 2px;
+        }
+
+        main{
+            background-color: rgb(149, 241, 149);
+            padding: 10px 20px;
+        }
+
+        #myForm{
+            background-color: limegreen;
+            margin: 0 auto;
+            width: 700px;
+            padding: 10px 20px;
+        }
+
+        footer{
+            border-top: white solid 2px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+
+        footer button{
+            color: green;
+            width: 150px;
+            height: 60px;
+            border-radius: 10px;
+            border: none;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="../images/dilton-logo.jpg" alt="Logo" style="width: 80px; border-radius: 10px;;">
+            <a href="../index.html" style="margin: 10px 30px; font-size: 40px; float: right;">Home</a>
+        </div>
+        
+    </header>
+
+    <main>
+        <div id="myForm">
+            <h1 style="text-align: center; border-bottom: white solid 2px;">Join Hilton Honors</h1>
+        <p style="font-size: 20px;;">All fields are required unless marked optional.</p>
+        <form action="">
+            <label for="name">First Name</label> <br>
+            <input type="text" placeholder="Palonchi"> <br> <br>
+            <label for="lastName">Last Name</label> <br>
+            <input type="text" placeholder="Palonchiev"> <br> <br>
+            <label for="tel">Phone</label> <br>
+            <select name="" id="">
+                <option value="">999+</option>
+                <option value="">998+</option>
+                <option value="">997+</option>
+                <option value="">996+</option>
+                <option value="">995+</option>
+            </select>
+            <input type="tel" placeholder="123-45-67"> <br> <br>
+
+            <label for="email">Email</label> <br>
+            <input type="email" placeholder="palonchi@wiut.com" name="email"> <br> <br>
+
+            <label for="">Country/Region</label> <br>
+            <select name="" id="">
+                <option value="">Uzbekistan</option>
+                <option value="">Tajikistan</option>
+                <option value="">India</option>
+                <option value="">Kazakhstan</option>
+                <option value="">Russia</option>
+            </select> <br> <br>
+
+            <label for="pass">Password</label> <br>
+            <input type="password" name="pass"> <br> <br>
+
+            <label for="">By clicking to this you are agreeing to <a href="">our terms and conditions</a>. <br></label>
+            <input type="checkbox"> I agree. <br> <br>
+            
+            <input type="submit" value="Join for Free" style="width: 400px; height: 25px; margin: 0 auto; border-radius: 5px; border: none; color: green; font-weight: bold; font-size: 20px;">
+
+        </form>
+
+        <footer>
+            <h2>How can we help?</h2>
+            <button id="request-a-call">Request a call</button>
+        </footer>
+
+        </div>
+    </main>
+</body>
+</html>

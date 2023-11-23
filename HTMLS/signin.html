@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color: white;
+            width: 960px;
+            box-sizing: border-box;
+            margin: 0 auto;
+            padding: 100px 20px;
+        }
+
+
+        button:active{
+            box-shadow: 1em 5px 5px green;
+            border: 1px solid black;
+        }
+
+        body div{
+            background-color: limegreen;
+            border-radius: 10px;;
+            width: 90%;
+            padding: 20px 15px;
+        }
+
+        p{
+            text-align: center;
+            border-bottom: solid 2px black;
+            padding-bottom: 10px;
+        }
+
+        #submit-btn{
+            width: 600px;
+            height: 40px;
+            border-radius: 10px;
+            margin: 0 40px;
+            font-size: 20px;
+            color: green;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <p style="font-size: 25px;">Sign In <a href="../index.html"><button id="x-btn" style="float: right; color: green; border: green solid 2px;">X</button></a></p> 
+        <br> All fields are required. <br> <br>
+        <form action="">
+
+            <label for="name">Username or Dilton Honers #</label> <br>
+            <input type="text"> <br> <br>
+
+            <label for="pass">Password</label> <br>
+            <input type="password"> <br> <br>
+
+            <a href="">Forgot your info?</a> <br> <br>
+
+            <input id="submit-btn" type="submit" value="Sign in">
+            
+        </form> <br> <br>
+        
+        <p style="text-align: left;">
+            Don't have an account?
+            <a href="join.html">Create one.</a>
+        </p>
+
+    </div>
+
+    <script src="../script.js"></script>
+</body>
+</html>
